@@ -751,7 +751,7 @@ var _ UserRepository = (*userRepositoryImpl)(nil)
 |-------|----------|----------|
 | Domain Entities | `/internal/domains/{feature}/entities/` | Business models |
 | Repositories | `/internal/domains/{feature}/repositories/` | Data access interfaces + implementations |
-| Services | `/internal/domains/{feature}/services/` | Business logic |
+| Services | `/internal/domains/{feature}/services/` | Business logic |ÂÂ
 | Value Objects | `/internal/domains/{feature}/valueobjects/` | Enums, constants, immutable types |
 | Handlers | `/internal/api/handlers/` | HTTP request handlers |
 | Requests | `/internal/api/requests/` | Request models |
